@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoreo de datos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+</head>
+<body>
+    <h1>MONITOREO DE DATOS</h1>
+    <div class="container">
+        <div class="card">
+            <div class="label">🌡️ Temperatura (°C)</div>
+            <div class="dato rosa" id="temperatura">0</div>
+            <button class="btn" onclick="updateValue('temperatura')">Actualizar</button>
+        </div>
+        <div class="card">
+            <div class="label">⚡ Corriente (Amper)</div>
+            <div class="dato amarillo" id="corriente">0</div>
+            <button class="btn" onclick="updateValue('corriente')">Actualizar</button>
+        </div>
+        <div class="card">
+            <div class="label">🔌 Tensión (Volt)</div>
+            <div class="dato violeta" id="tension">0</div>
+            <button class="btn" onclick="updateValue('tension')">Actualizar</button>
+        </div>
+    </div>
+    <div class="footer">
+        <hr>
+        <p id="tiempo"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
