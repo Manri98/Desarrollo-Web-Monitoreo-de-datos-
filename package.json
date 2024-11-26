@@ -10,7 +10,7 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nicolas Manrique",
   "license": "ISC",
-  "description": ""
+  "description": "Proyecto final para la materia Desarrllo Web"
 }
